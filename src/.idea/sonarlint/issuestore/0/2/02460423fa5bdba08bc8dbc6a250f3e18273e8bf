@@ -1,0 +1,14 @@
+
+Y
+java:S1854	">Remove this useless assignment to local variable "container2".(ßŸÜ€ùÿÿÿÿ
+S
+java:S1854"=Remove this useless assignment to local variable "container".(¬ûÈ
+D
+java:S1481".Remove this unused "container" local variable.(¬ûÈ
+J
+java:S1481	"/Remove this unused "container2" local variable.(ßŸÜ€ùÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(²ùÊt
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÛşÙÌıÿÿÿÿ
+3
+java:S2119"Save and re-use this "Random".(¼İÅf
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ë„Ç‡ÿÿÿÿÿ

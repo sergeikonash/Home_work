@@ -1,0 +1,15 @@
+
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÂºşÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ßÂºşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ïÒ½¨ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Êã½•şÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Êã½•şÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(Êã½•şÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(Ãç¯å
+Œ
+java:S1192"qDefine a constant instead of duplicating this literal "Ğ—Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ Ğ´Ğ¾ Ğ¿ĞµÑ€ĞµĞ¿Ğ¾Ğ»Ğ½ĞµĞ½Ğ¸Ñ: " 3 times.(Êã½•şÿÿÿÿ
+n	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Ìà„Ù
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(“¸ãÇ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ë„Ç‡ÿÿÿÿÿ

@@ -18,6 +18,7 @@ public class HW_7 {
         } else if (number == 0) {
             binar = "0";
         } else {
+
             while(number !=0 ) {
                 binarNumber = number % 2;
                 if (binarNumber == 0) {

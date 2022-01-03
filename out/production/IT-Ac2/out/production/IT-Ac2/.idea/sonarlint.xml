@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="fileExclusions">
+      <list>
+        <option value="FILE:IT-Ac2.iml" />
+        <option value="FILE:out/production/IT-Ac2/IT-Ac2.iml" />
+      </list>
+    </option>
+  </component>
+</project>

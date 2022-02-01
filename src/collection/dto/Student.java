@@ -59,6 +59,10 @@ public class Student {
     public void setAge() {
         int max = 17;
         int min = 7;
+        setAge(max, min);
+    }
+
+    public void setAge(int max, int min) {
         max -= min;
         this.age =  (int) (Math.random() * ++max) + min;
     }

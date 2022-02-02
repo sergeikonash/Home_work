@@ -28,17 +28,22 @@ public class WorkingWithFiles {
             }
         }
 
-        System.out.println("Выберите книгу, с которой будем работать:");
-        String book = scanner.nextLine();
-        System.out.println("Поиск по книге " + book);
-        String bookLikeString = reader(book);
-
-        String nameOfFile = directory + "\\Results of search. " + book;
+        String nameOfFile = directory + "\\Results of search.txt";
         Files.createFile(Path.of(nameOfFile));
 
         String text;
+        String book;
 
         while (true) {
+            System.out.println("Выберите книгу, с которой будем работать (для прекращения поиска введите END):");
+            book = scanner.nextLine();
+            if (book.equals("END")) {
+                System.out.println("Поиск завершен");
+                break;
+            }
+            System.out.println("Поиск по книге " + book);
+            String bookLikeString = reader(directory + "\\" + book);
+
             System.out.println("Введите текст, который хотите найти в книге (для прекращения поиска введите END):");
             text = scanner.nextLine();
             if (text.equals("END")) {
